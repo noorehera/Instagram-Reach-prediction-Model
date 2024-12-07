@@ -67,15 +67,21 @@ pip install pandas numpy matplotlib seaborn plotly wordcloud scikit-learn
 
 Getting Started
 1. Clone the repository:
+
 git clone https://github.com/yourusername/instagram-reach-prediction.git
 cd instagram-reach-prediction
+
+
 2. Prepare the dataset:
 Place the Instagram_dataset.csv file in the project directory. Ensure the dataset contains columns for metrics such as impressions, likes, comments, shares, profile visits, and follows.
+
+
 3. Run the script:
 Execute the Python script to perform analysis and predictions:
 bash
 python Instagram_Reach_Prediction_Model.py
-4. Model Prediction:
+
+5. Model Prediction:
 Update the features variable with new input data to predict reach:
 features = np.array([[Likes, Saves, Comments, Shares, Profile Visits, Follows]])
 print(model.predict(features))
